@@ -1,14 +1,163 @@
 [
   {
-    "id": 5,
-    "imagen": "src/dksamdsa.jpg",
-    "nombre": "Farmacia",
+    "id": 1,
+    "imagen": "fast-food.jpg",
+    "nombre": "Comida Rapida",
     "empresas": [
       {
         "idEmpresa": 1,
         "nombreEmpresa": "PizzaHut",
         "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
         "puntuacion": 5,
+        "imagen": "Pizza-Hut-logo.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      },
+      {
+        "idEmpresa": 2,
+        "nombreEmpresa": "Dennys",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "dennys.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      },
+      {
+        "idEmpresa": 3,
+        "nombreEmpresa": "Burger King",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "burger-king.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imagen": "taza-cafe-cuchara-plato-pequeno-ilustracion-vectorial_620585-34.webp",
+    "nombre": "Cafe",
+    "empresas": [
+      {
+        "idEmpresa": 1,
+        "nombreEmpresa": "Expresso",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "mcdonals.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      },
+      {
+        "idEmpresa": 2,
+        "nombreEmpresa": "Donuts",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "Pizza-Hut-logo.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      },
+      {
+        "idEmpresa": 3,
+        "nombreEmpresa": "Star Bucks",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "mcdonals.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imagen": "bebida.jpg",
+    "nombre": "Bebidas",
+    "empresas": [
+      {
+        "idEmpresa": 1,
+        "nombreEmpresa": "PizzaHut",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "Pizza-Hut-logo.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imagen": "farmacias.jpg",
+    "nombre": "Farmacias",
+    "empresas": [
+      {
+        "idEmpresa": 1,
+        "nombreEmpresa": "PizzaHut",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "imagen": "dennys.png",
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imagen": "logotipo-supermercado_23-2148459011.webp",
+    "nombre": "Supermercado",
+    "empresas": [
+      {
+        "idEmpresa": 1,
+        "nombreEmpresa": "PizzaHut",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 4.9,
+        "imagen": "Pizza-Hut-logo.png",
         "productosEmpresa": [
           {
             "idProducto": 4,
