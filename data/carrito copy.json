@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "productos": [
+    {
+      "idProducto": 4,
+      "empresaProducto": "Burger Clasica",
+      "descripcionProducto": "Hamburguesa 4 onzas",
+      "precioProducto": 999,
+      "imagenProducto": "PICALIFORNIA.png"
+    },
+    {
+      "idProducto": 5,
+      "empresaProducto": "Pancakes",
+      "descripcionProducto": "Panqueques con miel",
+      "precioProducto": 999,
+      "imagenProducto": "PICALIFORNIA.png"
+    }
+  ]
+}

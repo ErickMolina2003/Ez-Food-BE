@@ -12,6 +12,8 @@
         "imagen": "Pizza-Hut-logo.png",
         "productosEmpresa": [
           {
+            "categoria": "Comida Rapida",
+            "empresa": "PizzaHut",
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
@@ -28,6 +30,8 @@
         "imagen": "dennys.png",
         "productosEmpresa": [
           {
+            "categoria": "Comida Rapida",
+            "empresa": "Dennys",
             "idProducto": 4,
             "empresaProducto": "Burger Clasica",
             "descripcionProducto": "Hamburguesa 4 onzas",
@@ -35,6 +39,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Comida Rapida",
+            "empresa": "Dennys",
             "idProducto": 5,
             "empresaProducto": "Pancakes",
             "descripcionProducto": "Panqueques con miel",
@@ -51,6 +57,8 @@
         "imagen": "burger-king.png",
         "productosEmpresa": [
           {
+            "categoria": "Comida Rapida",
+            "empresa": "Burger King",
             "idProducto": 4,
             "empresaProducto": "Hamburguesa bk",
             "descripcionProducto": "calzones",
@@ -58,6 +66,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Comida Rapida",
+            "empresa": "Burger King",
             "idProducto": 5,
             "empresaProducto": "Malteada bk",
             "descripcionProducto": "calzones",
@@ -65,6 +75,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Comida Rapida",
+            "empresa": "Burger King",
             "idProducto": 5,
             "empresaProducto": "Cono bk",
             "descripcionProducto": "calzones",
@@ -88,6 +100,8 @@
         "imagen": "mcdonals.png",
         "productosEmpresa": [
           {
+            "categoria": "Cafe",
+            "empresa": "Expresso",
             "idProducto": 4,
             "empresaProducto": "Cafe express",
             "descripcionProducto": "calzones",
@@ -95,6 +109,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Expresso",
             "idProducto": 5,
             "empresaProducto": "chilena express",
             "descripcionProducto": "calzones",
@@ -102,6 +118,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Expresso",
             "idProducto": 6,
             "empresaProducto": "muffin express",
             "descripcionProducto": "calzones",
@@ -118,6 +136,8 @@
         "imagen": "Pizza-Hut-logo.png",
         "productosEmpresa": [
           {
+            "categoria": "Cafe",
+            "empresa": "Donuts",
             "idProducto": 4,
             "empresaProducto": "Dona donut",
             "descripcionProducto": "calzones",
@@ -125,6 +145,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Donuts",
             "idProducto": 5,
             "empresaProducto": "Cafe donut",
             "descripcionProducto": "calzones",
@@ -132,6 +154,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Donuts",
             "idProducto": 6,
             "empresaProducto": "Relampago donut",
             "descripcionProducto": "calzones",
@@ -148,6 +172,8 @@
         "imagen": "mcdonals.png",
         "productosEmpresa": [
           {
+            "categoria": "Cafe",
+            "empresa": "Star Bucks",
             "idProducto": 4,
             "empresaProducto": "cafe buck",
             "descripcionProducto": "calzones",
@@ -155,6 +181,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Star Bucks",
             "idProducto": 5,
             "empresaProducto": "cafe ultra buck",
             "descripcionProducto": "calzones",
@@ -162,6 +190,8 @@
             "imagenProducto": "PICALIFORNIA.png"
           },
           {
+            "categoria": "Cafe",
+            "empresa": "Star Bucks",
             "idProducto": 6,
             "empresaProducto": "cafe supremo buck",
             "descripcionProducto": "calzones",
@@ -185,6 +215,8 @@
         "imagen": "Pizza-Hut-logo.png",
         "productosEmpresa": [
           {
+            "categoria": "Bebidas",
+            "empresa": "Star Bucks",
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
@@ -208,6 +240,8 @@
         "imagen": "dennys.png",
         "productosEmpresa": [
           {
+            "categoria": "Farmacia",
+            "empresa": "Star Bucks",
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
@@ -231,6 +265,8 @@
         "imagen": "Pizza-Hut-logo.png",
         "productosEmpresa": [
           {
+            "categoria": "Supermercado",
+            "empresa": "Star Bucks",
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
