@@ -40,7 +40,7 @@ class Categorias
         echo json_encode($todasCategorias);
     }
 
-    public static function obtenerEmpresasDeCategoria($id)
+    public static function obtenerEmpresasDeCategoria($id, $empresasOproductos, $idEmpresa)
     {
         // AGARRAR TODAS LAS CATEGORIAS
         $todasCategorias = json_decode(file_get_contents('../data/categorias.json'), true);
@@ -57,7 +57,9 @@ class Categorias
         // OBTENER LAS EMPRESAS DE ESA CATEGORIA
         $categoriaID = $categoriaID["empresas"];
 
-        // QUITAR LOS PRODUCTOS DE ESA CATEGORIA
+        $empresasDeLaCategoria = $categoriaID;
+
+        // QUITAR LOS PRODUCTOS DE LAS EMPRESA
         for ($i = 0; $i < sizeof($categoriaID); $i++) {
             $categoriaID[$i] = array(
                 "idEmpresa" => $categoriaID[$i]["idEmpresa"],
@@ -68,7 +70,23 @@ class Categorias
             );
         }
 
+        if ($empresasOproductos == 0) {
+            echo json_encode($categoriaID);
+        }
 
-        echo json_encode($categoriaID);
+        if ($empresasOproductos == 1) {
+            // OBTENER LA EMPRESA
+            for ($i = 0; $i < sizeof($empresasDeLaCategoria); $i++) {
+
+                if ($empresasDeLaCategoria[$i]["idEmpresa"] == $idEmpresa) {
+                    $empresa = $empresasDeLaCategoria[$i];
+                }
+            }
+
+
+            // OBTENER LOS PRODUCTOS DE ESA EMPRESA
+            $productosDeLaEmpresa = $empresa["productosEmpresa"];
+            echo json_encode($productosDeLaEmpresa);
+        }
     }
 }

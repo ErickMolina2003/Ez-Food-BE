@@ -15,7 +15,8 @@
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       },
@@ -28,9 +29,17 @@
         "productosEmpresa": [
           {
             "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
-            "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "empresaProducto": "Burger Clasica",
+            "descripcionProducto": "Hamburguesa 4 onzas",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "Pancakes",
+            "descripcionProducto": "Panqueques con miel",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       },
@@ -43,9 +52,24 @@
         "productosEmpresa": [
           {
             "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
+            "empresaProducto": "Hamburguesa bk",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "Malteada bk",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "Cono bk",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       }
@@ -65,9 +89,24 @@
         "productosEmpresa": [
           {
             "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
+            "empresaProducto": "Cafe express",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "chilena express",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 6,
+            "empresaProducto": "muffin express",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       },
@@ -80,9 +119,24 @@
         "productosEmpresa": [
           {
             "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
+            "empresaProducto": "Dona donut",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "Cafe donut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 6,
+            "empresaProducto": "Relampago donut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       },
@@ -95,9 +149,24 @@
         "productosEmpresa": [
           {
             "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
+            "empresaProducto": "cafe buck",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "cafe ultra buck",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 6,
+            "empresaProducto": "cafe supremo buck",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       }
@@ -119,7 +188,8 @@
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       }
@@ -141,7 +211,8 @@
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       }
@@ -163,7 +234,8 @@
             "idProducto": 4,
             "empresaProducto": "Pizza Hut",
             "descripcionProducto": "calzones",
-            "precioProducto": 999
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
           }
         ]
       }
