@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "direccionOrigen": "Boulevard Juan Pablo 2",
+    "direccionDestino": "Residencial La Canada",
+    "SubTotal": 999,
+    "ImpuestoCompra": 999,
+    "ImpuestoVenta": 999,
+    "Impuesto": 999,
+    "Total": 9999,
+    "Envio": 999,
+    "Comision": 999,
+    "Propina": 999,
+    "TotalComision": 999,
+    "productos": [
+      {
+        "idProducto": 4,
+        "empresaProducto": "Burger Clasica",
+        "descripcionProducto": "Hamburguesa 4 onzas",
+        "precioProducto": 999,
+        "imagenProducto": "PICALIFORNIA.png"
+      },
+      {
+        "idProducto": 5,
+        "empresaProducto": "Pancakes",
+        "descripcionProducto": "Panqueques con miel",
+        "precioProducto": 999,
+        "imagenProducto": "PICALIFORNIA.png"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "direccionOrigen": "Boulevard Juan Pablo 2",
+    "direccionDestino": "Residencial La Canada",
+    "SubTotal": 999,
+    "ImpuestoCompra": 999,
+    "ImpuestoVenta": 999,
+    "Impuesto": 999,
+    "Total": 9999,
+    "Envio": 999,
+    "Comision": 999,
+    "Propina": 999,
+    "TotalComision": 999,
+    "productos": [
+      {
+        "idProducto": 4,
+        "empresaProducto": "Burger Clasica",
+        "descripcionProducto": "Hamburguesa 4 onzas",
+        "precioProducto": 999,
+        "imagenProducto": "PICALIFORNIA.png"
+      },
+      {
+        "idProducto": 5,
+        "empresaProducto": "Pancakes",
+        "descripcionProducto": "Panqueques con miel",
+        "precioProducto": 999,
+        "imagenProducto": "PICALIFORNIA.png"
+      }
+    ]
+  }
+]
