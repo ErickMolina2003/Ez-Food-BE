@@ -1,0 +1,23 @@
+[
+  {
+    "id": 5,
+    "imagen": "src/dksamdsa.jpg",
+    "nombre": "Farmacia",
+    "empresas": [
+      {
+        "idEmpresa": 1,
+        "nombreEmpresa": "PizzaHut",
+        "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
+        "puntuacion": 5,
+        "productosEmpresa": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Pizza Hut",
+            "descripcionProducto": "calzones",
+            "precioProducto": 999
+          }
+        ]
+      }
+    ]
+  }
+]

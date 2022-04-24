@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+      {
+        "idOrden": 4,
+        "empresaOrden": "Pizza Hut",
+        "descripcionOrden": "calzones",
+        "cantidadOrden": 5,
+        "precioOrden": 999,
+        "estadoOrden": "origen",
+        "origenOrden": "pablo 2",
+        "destinoOrden": "Residencial"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+      {
+        "idOrden": 4,
+        "empresaOrden": "Pizza Hut",
+        "descripcionOrden": "calzones",
+        "cantidadOrden": 5,
+        "precioOrden": 999,
+        "estadoOrden": "origen",
+        "origenOrden": "pablo 2",
+        "destinoOrden": "Residencial"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+      {
+        "idOrden": 4,
+        "empresaOrden": "Pizza Hut",
+        "descripcionOrden": "calzones",
+        "cantidadOrden": 5,
+        "precioOrden": 999,
+        "estadoOrden": "origen",
+        "origenOrden": "pablo 2",
+        "destinoOrden": "Residencial"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+      {
+        "idOrden": 4,
+        "empresaOrden": "Pizza Hut",
+        "descripcionOrden": "calzones",
+        "cantidadOrden": 5,
+        "precioOrden": 999,
+        "estadoOrden": "origen",
+        "origenOrden": "pablo 2",
+        "destinoOrden": "Residencial"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+      {
+        "idOrden": 4,
+        "empresaOrden": "Pizza Hut",
+        "descripcionOrden": "calzones",
+        "cantidadOrden": 5,
+        "precioOrden": 999,
+        "estadoOrden": "origen",
+        "origenOrden": "pablo 2",
+        "destinoOrden": "Residencial"
+      }
+    ]
+  },
+  { "usuario": "Erick", "contrasena": "Molina", "id": 6, "ordenes": [] },
+  { "usuario": "Alejandro", "contrasena": "Garcia", "id": 7, "ordenes": [] },
+  { "usuario": "Sonia", "contrasena": "hola123", "id": 8, "ordenes": [] },
+  { "usuario": "molina", "contrasena": "123", "id": 9, "ordenes": [] },
+  { "usuario": "molina", "contrasena": "erick", "id": 10, "ordenes": [] },
+  { "usuario": "aja", "contrasena": "1234", "id": 11, "ordenes": [] },
+  { "usuario": "eje", "contrasena": "4321", "id": 12, "ordenes": [] }
+]
