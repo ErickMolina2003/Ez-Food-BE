@@ -1,0 +1,20 @@
+[
+  {
+    "id": 4,
+    "usuario": "eralejo",
+    "contrasena": "Password123",
+    "ubicacion": "Res. La canada",
+    "ordenes": [
+        {
+            "idOrden": 4,
+            "empresaOrden": "Pizza Hut",
+            "descripcionOrden": "calzones",
+            "cantidadOrden": 5,
+            "precioOrden": 999,
+            "estadoOrden": "origen",
+            "origenOrden": "pablo 2",
+            "destinoOrden": "Residencial"
+        }
+    ]
+  }
+]
