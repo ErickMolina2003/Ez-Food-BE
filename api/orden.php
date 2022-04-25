@@ -9,9 +9,12 @@
             Orden::procesarOrden($_POST);
             break;
         case 'GET':
-            if(isset($_GET["id"])){
+            if(isset($_GET["id"]) && isset($_GET["asignada"])){
+                Orden::obtenerOrdenAsignadaPorId($_GET["id"]);
+            }
+            if(isset($_GET["id"]) && !isset($_GET["asignada"])){
                 Orden::obtenerOrdenPorId($_GET["id"]);
-            }else{
+            }if(!isset($_GET["id"]) && !isset($_GET["asignada"])){
                 Orden::obtenerOrdenesDisponibles();
             }
             break;    

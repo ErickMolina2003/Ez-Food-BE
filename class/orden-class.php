@@ -95,18 +95,18 @@ class Orden
         echo $orden;
         // Eliminar la orden de ordenes.json
 
-        $todasOrdenes = json_decode(file_get_contents('../data/ordenes.json'), true);
-        $nuevasOrdenes = [];
-        $ordenRecibida = json_decode($orden, true);
+        // $todasOrdenes = json_decode(file_get_contents('../data/ordenes.json'), true);
+        // $nuevasOrdenes = [];
+        // $ordenRecibida = json_decode($orden, true);
 
-        for ($i = 0; $i < sizeof($todasOrdenes); $i++) {
-            if ($todasOrdenes[$i]["id"] != $ordenRecibida["id"]) {
-                $nuevasOrdenes[] = $todasOrdenes[$i];
-            }
-        }
+        // for ($i = 0; $i < sizeof($todasOrdenes); $i++) {
+        //     if ($todasOrdenes[$i]["id"] != $ordenRecibida["id"]) {
+        //         $nuevasOrdenes[] = $todasOrdenes[$i];
+        //     }
+        // }
 
-        $archivo = fopen('../data/ordenes.json', 'w');
-        fwrite($archivo, json_encode($nuevasOrdenes));
+        // $archivo = fopen('../data/ordenes.json', 'w');
+        // fwrite($archivo, json_encode($nuevasOrdenes));
 
         // Agregar la orden a ordenes-asignadas.json
 
@@ -149,5 +149,21 @@ class Orden
         };
         $archivo3 = fopen('../data/repartidores.json', 'w');
         fwrite($archivo3, json_encode($nuevosRepartidores));
+    }
+
+    public static function obtenerOrdenAsignadaPorId($idOrden){
+
+        $archivo = json_decode(file_get_contents('../data/ordenes-asignadas.json'), true);
+
+
+        for ($i = 0; $i < sizeof($archivo); $i++) {
+            // echo json_encode($archivo[$i]);
+            if ($archivo[$i]["id"] == $idOrden) {
+                $orden = $archivo[$i];
+            }
+        }
+
+        echo json_encode($orden);
+
     }
 }
