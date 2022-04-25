@@ -3,7 +3,7 @@
     "id": 1,
     "direccionOrigen": "Boulevard Juan Pablo 2",
     "direccionDestino": "Residencial La Canada",
-    "SubTotal": 999,
+    "subTotal": 999,
     "ImpuestoCompra": 999,
     "ImpuestoVenta": 999,
     "Impuesto": 999,

@@ -8,6 +8,13 @@
             $_POST = file_get_contents('php://input');
             Orden::procesarOrden($_POST);
             break;
+        case 'GET':
+            if(isset($_GET["id"])){
+                Orden::obtenerOrdenPorId($_GET["id"]);
+            }else{
+                Orden::obtenerOrdenesDisponibles();
+            }
+            break;    
     }
 
 

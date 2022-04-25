@@ -54,4 +54,39 @@ class Orden
         $archivo = fopen('../data/ordenes.json', 'w');
         fwrite($archivo, json_encode($totalOrdenes));
     }
+
+    public static function obtenerOrdenesDisponibles()
+    {
+        $archivo = json_decode(file_get_contents('../data/ordenes.json'), true);
+
+        $ordenesDisponibles = [];
+
+        for ($i = 0; $i < sizeof($archivo); $i++) {
+            // if (!$archivo[$i]["estado"] || $archivo[$i]["estado"] == "disponible") {
+            $ordenesDisponibles[$i] = array(
+                "id" => $archivo[$i]["id"],
+                "direccionOrigen" => $archivo[$i]["direccionOrigen"],
+                "direccionDestino" => $archivo[$i]["direccionDestino"],
+                "TotalComision" => $archivo[$i]["TotalComision"]
+            );
+            // }
+        }
+
+        echo json_encode($ordenesDisponibles);
+    }
+
+    public static function obtenerOrdenPorId($idOrden)
+    {
+        $archivo = json_decode(file_get_contents('../data/ordenes.json'), true);
+        
+
+        for($i=0; $i < sizeof($archivo); $i++){
+            // echo json_encode($archivo[$i]);
+            if($archivo[$i]["id"] == $idOrden){
+                $orden = $archivo[$i];
+            }
+        }
+
+        echo json_encode($orden);
+    }
 }
