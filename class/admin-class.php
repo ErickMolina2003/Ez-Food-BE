@@ -82,4 +82,21 @@ class Admin
 
         echo $todosRepartidores;
     }
+
+    public static function obtenerOrdenes()
+    {
+        $todasOrdenesAsignadas = json_decode(file_get_contents('../data/ordenes-asignadas.json'),true);
+        $todasOrdenes = json_decode(file_get_contents('../data/ordenes.json'),true);
+
+        $ordenesCompletas = [];
+        for($i=0; $i< sizeof($todasOrdenesAsignadas); $i++){
+            $ordenesCompletas[] = $todasOrdenesAsignadas[$i];
+        }
+
+        for($i=0 ; $i< sizeof($todasOrdenes); $i++){
+            $ordenesCompletas[] = $todasOrdenes[$i];
+        }
+
+        echo json_encode($ordenesCompletas);
+    }
 }
