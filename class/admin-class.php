@@ -33,4 +33,46 @@ class Admin
 
         echo json_encode($todasEmpresas);
     }
+
+    public static function obtenerProductos()
+    {
+        $todasCategorias = json_decode(file_get_contents('../data/categorias.json'), true);
+        $empresas = [];
+
+        for ($i = 0; $i < sizeof($todasCategorias); $i++) {
+            for ($j = 0; $j < sizeof($todasCategorias[$i]["empresas"]); $i++) {
+                // echo json_encode($todasCategorias[$i]["empresas"]);
+                $empresas[] = $todasCategorias[$i]["empresas"];
+                if ($i == sizeof($todasCategorias) - 1) {
+                    break;
+                }
+            }
+        }
+        $todasEmpresas = [];
+        for ($i = 0; $i < sizeof($empresas); $i++) {
+            for ($j = 0; $j < sizeof($empresas[$i]); $j++) {
+                $todasEmpresas[] = $empresas[$i][$j];
+            }
+        }
+
+        $todosProductos = [];
+        for ($i = 0; $i < sizeof($todasEmpresas); $i++) {
+            for ($j = 0; $j < sizeof($todasEmpresas[$i]["productosEmpresa"]); $j++) {
+                if($j!=0 && $j == sizeof($todasEmpresas[$i]["productosEmpresa"]) - 1){
+                    $i++;
+                }
+                // echo json_encode($todasEmpresas[$i]["productosEmpresa"]);
+
+                for($k=0; $k < sizeof($todasEmpresas[$i]["productosEmpresa"]) ;$k++){
+                    $todosProductos[] = $todasEmpresas[$i]["productosEmpresa"][$k];
+                }
+                
+
+                // $todosProductos[] = $todasEmpresas[$i]["productosEmpresa"];
+                // $if()
+            }
+        }
+
+        echo json_encode($todosProductos);
+    }
 }
