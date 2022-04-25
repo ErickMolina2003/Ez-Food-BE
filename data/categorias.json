@@ -263,17 +263,7 @@
         "descripcionEmpresa": "Pizzas, Calzones, Ensaladas",
         "puntuacion": 4.9,
         "imagen": "Pizza-Hut-logo.png",
-        "productosEmpresa": [
-          {
-            "categoria": "Supermercado",
-            "empresa": "Star Bucks",
-            "idProducto": 4,
-            "empresaProducto": "Pizza Hut",
-            "descripcionProducto": "calzones",
-            "precioProducto": 999,
-            "imagenProducto": "PICALIFORNIA.png"
-          }
-        ]
+        "productosEmpresa": []
       }
     ]
   }

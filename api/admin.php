@@ -5,6 +5,11 @@
 
     switch($_SERVER["REQUEST_METHOD"]){
         case "GET":
-                Admin::obtenerAdmins();
+                if(isset($_GET["empresas"])){
+                    Admin::obtenerEmpresas();
+                }
+                if(!isset($_GET["empresas"])){
+                    Admin::obtenerAdmins();
+                }
             break;
     }
