@@ -10,7 +10,11 @@
         break;
 
         case 'GET':
-            Repartidor::obtenerRepartidores();
+            if(isset($_GET["id"])){
+                Repartidor::obtenerRepartidor($_GET["id"]);
+            }else {
+                Repartidor::obtenerRepartidores();
+            }
             break;
     }
 

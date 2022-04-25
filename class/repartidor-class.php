@@ -53,4 +53,18 @@ class Repartidor
         // MANDA EL JSON MODIFICADO
         echo json_encode($todosRepartidores);
     }
+
+    public static function obtenerRepartidor($idRepartidor)
+    {
+        $todosRepartidores = json_decode(file_get_contents('../data/repartidores.json'), true);
+        $repartidor = [];
+        for ($i = 0; $i < sizeof($todosRepartidores); $i++) {
+            if ($todosRepartidores[$i]["id"] == $idRepartidor) {
+                $repartidor = $todosRepartidores[$i]["ordenes"];
+                break;
+            }
+        }
+
+        echo json_encode($repartidor);
+    }
 }
