@@ -58,15 +58,15 @@ class Admin
         $todosProductos = [];
         for ($i = 0; $i < sizeof($todasEmpresas); $i++) {
             for ($j = 0; $j < sizeof($todasEmpresas[$i]["productosEmpresa"]); $j++) {
-                if($j!=0 && $j == sizeof($todasEmpresas[$i]["productosEmpresa"]) - 1){
+                if ($j != 0 && $j == sizeof($todasEmpresas[$i]["productosEmpresa"]) - 1) {
                     $i++;
                 }
                 // echo json_encode($todasEmpresas[$i]["productosEmpresa"]);
 
-                for($k=0; $k < sizeof($todasEmpresas[$i]["productosEmpresa"]) ;$k++){
+                for ($k = 0; $k < sizeof($todasEmpresas[$i]["productosEmpresa"]); $k++) {
                     $todosProductos[] = $todasEmpresas[$i]["productosEmpresa"][$k];
                 }
-                
+
 
                 // $todosProductos[] = $todasEmpresas[$i]["productosEmpresa"];
                 // $if()
@@ -74,5 +74,12 @@ class Admin
         }
 
         echo json_encode($todosProductos);
+    }
+
+    public static function ObtenerReartidores()
+    {
+        $todosRepartidores = file_get_contents('../data/repartidores.json');
+
+        echo $todosRepartidores;
     }
 }

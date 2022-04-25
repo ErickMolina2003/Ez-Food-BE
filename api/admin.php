@@ -5,14 +5,17 @@
 
     switch($_SERVER["REQUEST_METHOD"]){
         case "GET":
-                if(isset($_GET["empresas"]) && !isset($_GET["productos"])){
+                if(isset($_GET["empresas"]) && !isset($_GET["productos"]) && !isset($_GET["repartidores"])){
                     Admin::obtenerEmpresas();
                 }
-                if(!isset($_GET["empresas"]) && !isset($_GET["productos"])){
+                if(!isset($_GET["empresas"]) && !isset($_GET["productos"]) && !isset($_GET["repartidores"])){
                     Admin::obtenerAdmins();
                 }
-                if(isset($_GET["productos"]) && !isset($_GET["empresas"]) ){
+                if(isset($_GET["productos"]) && !isset($_GET["empresas"]) && !isset($_GET["repartidores"])){
                     Admin::obtenerProductos();
+                }
+                if(isset($_GET["repartidores"]) && !isset($_GET["empresas"]) && !isset($_GET["productos"])){
+                    Admin::ObtenerReartidores();
                 }
             break;
     }
