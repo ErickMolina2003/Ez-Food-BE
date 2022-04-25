@@ -1,1 +1,53 @@
-[{"repartidor":"Erick","contrasena":"Marin","id":1,"ordenes":[{"id":1,"direccionOrigen":"Boulevard Juan Pablo 2","direccionDestino":"Residencial La Canada","SubTotal":999,"ImpuestoCompra":999,"ImpuestoVenta":999,"Impuesto":999,"Total":9999,"Envio":999,"Comision":999,"Propina":999,"TotalComision":999,"productos":[{"idProducto":4,"empresaProducto":"Burger Clasica","descripcionProducto":"Hamburguesa 4 onzas","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"},{"idProducto":5,"empresaProducto":"Pancakes","descripcionProducto":"Panqueques con miel","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"}]},{"direccionOrigen":"Boulevard Juan Pablo 2","direccionDestino":"14.0804096, -87.1858176","subTotal":999,"ImpuestoCompra":249.75,"ImpuestoVenta":149.85,"Impuesto":399.6,"Total":1398.6,"envio":30,"Comision":209.79,"Propina":69.92999999999999,"TotalComision":279.71999999999997,"id":2,"productos":[{"idProducto":9,"empresaProducto":"Baleada express","descripcionProducto":"calzones","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"},{"idProducto":10,"empresaProducto":"Hamburguesa express","descripcionProducto":"calzones","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"}]}]},{"repartidor":"2","contrasena":"1","id":2,"ordenes":[{"direccionOrigen":"Boulevard Juan Pablo 2","direccionDestino":"14.0804096, -87.1858176","subTotal":1998,"ImpuestoCompra":499.5,"ImpuestoVenta":299.7,"Impuesto":799.2,"Total":2797.2,"envio":30,"Comision":419.58,"Propina":139.85999999999999,"TotalComision":559.4399999999999,"id":3,"productos":[{"idProducto":4,"empresaProducto":"Pizza Hut","descripcionProducto":"calzones","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"},{"idProducto":5,"empresaProducto":"Cono bk","descripcionProducto":"calzones","precioProducto":999,"imagenProducto":"PICALIFORNIA.png"}]}]},{"repartidor":"Erick","contrasena":"molina","id":3,"ordenes":[]},{"repartidor":"1","contrasena":"1","id":4,"ordenes":[]},{"repartidor":"5","contrasena":"5","id":5,"ordenes":[]},{"repartidor":"6","contrasena":"6","id":6,"ordenes":[]},{"repartidor":"7","contrasena":"7","id":7,"ordenes":[]},{"repartidor":"99","contrasena":"99","id":8,"ordenes":[]}]
+[
+  {
+    "repartidor": "1",
+    "contrasena": "1",
+    "id": 4,
+    "ordenes": []
+  },
+  {
+    "repartidor": "Erick",
+    "contrasena": "Marin",
+    "id": 1,
+    "ordenes": [
+      {
+        "id": 1,
+        "direccionOrigen": "Boulevard Juan Pablo 2",
+        "direccionDestino": "Residencial La Canada",
+        "subTotal": 999,
+        "ImpuestoCompra": 999,
+        "ImpuestoVenta": 999,
+        "Impuesto": 999,
+        "Total": 9999,
+        "Envio": 999,
+        "Comision": 999,
+        "Propina": 999,
+        "TotalComision": 999,
+        "estado": "origen",
+        "repartidor": 1,
+        "productos": [
+          {
+            "idProducto": 4,
+            "empresaProducto": "Burger Clasica",
+            "descripcionProducto": "Hamburguesa 4 onzas",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          },
+          {
+            "idProducto": 5,
+            "empresaProducto": "Pancakes",
+            "descripcionProducto": "Panqueques con miel",
+            "precioProducto": 999,
+            "imagenProducto": "PICALIFORNIA.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repartidor": "Erick",
+    "contrasena": "Rojo",
+    "id": 3,
+    "ordenes": []
+  }
+]

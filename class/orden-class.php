@@ -78,15 +78,76 @@ class Orden
     public static function obtenerOrdenPorId($idOrden)
     {
         $archivo = json_decode(file_get_contents('../data/ordenes.json'), true);
-        
 
-        for($i=0; $i < sizeof($archivo); $i++){
+
+        for ($i = 0; $i < sizeof($archivo); $i++) {
             // echo json_encode($archivo[$i]);
-            if($archivo[$i]["id"] == $idOrden){
+            if ($archivo[$i]["id"] == $idOrden) {
                 $orden = $archivo[$i];
             }
         }
 
         echo json_encode($orden);
+    }
+
+    public static function TomarOrden($orden)
+    {
+        echo $orden;
+        // Eliminar la orden de ordenes.json
+
+        $todasOrdenes = json_decode(file_get_contents('../data/ordenes.json'), true);
+        $nuevasOrdenes = [];
+        $ordenRecibida = json_decode($orden, true);
+
+        for ($i = 0; $i < sizeof($todasOrdenes); $i++) {
+            if ($todasOrdenes[$i]["id"] != $ordenRecibida["id"]) {
+                $nuevasOrdenes[] = $todasOrdenes[$i];
+            }
+        }
+
+        $archivo = fopen('../data/ordenes.json', 'w');
+        fwrite($archivo, json_encode($nuevasOrdenes));
+
+        // Agregar la orden a ordenes-asignadas.json
+
+        $todasOrdenesAsignadas = json_decode(file_get_contents('../data/ordenes-asignadas.json'), true);
+        $ordenAgregar = json_decode($orden, true);
+        $ordenAgregar['id'] = sizeof($todasOrdenesAsignadas) + 1;
+
+        $todasOrdenesAsignadas[] = $ordenAgregar;
+
+        $archivo2 = fopen('../data/ordenes-asignadas.json', 'w');
+        fwrite($archivo2, json_encode($todasOrdenesAsignadas));
+
+
+        // Agregar la orden al repartidor correspondiente
+
+        $ordenParam = json_decode($orden, true);
+        $ordenParam = $ordenParam["repartidor"];
+
+        $todosRepartidores = json_decode(file_get_contents('../data/repartidores.json'), true);
+        $repartidor = [];
+        for ($i = 0; $i < sizeof($todosRepartidores); $i++) {
+            if ($todosRepartidores[$i]["id"] == $ordenParam) {
+                $repartidor = $todosRepartidores[$i];
+            }
+        };
+
+        $totalOrdenes = json_decode(file_get_contents('../data/ordenes-asignadas.json'), true);
+        $nuevoId = sizeof($totalOrdenes);
+        $orden = json_decode($orden, true);
+        $orden["id"] = $nuevoId;
+        
+        array_push($repartidor["ordenes"], $orden);
+
+        $nuevosRepartidores[] = $repartidor;
+
+        for ($i = 0; $i < sizeof($todosRepartidores); $i++) {
+            if ($todosRepartidores[$i]["id"] != $ordenParam) {
+                $nuevosRepartidores[] = $todosRepartidores[$i];
+            }
+        };
+        $archivo3 = fopen('../data/repartidores.json', 'w');
+        fwrite($archivo3, json_encode($nuevosRepartidores));
     }
 }
