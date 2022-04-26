@@ -21,4 +21,8 @@
                     Admin::obtenerOrdenes();
                 }
             break;
+        case "POST":
+            $_POST = file_get_contents('php://input');
+            Admin::crearEmpresa($_POST);
+            break;    
     }
